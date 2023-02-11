@@ -1,0 +1,19 @@
+{
+  "name": "ecell_nitb_hack2k23_hackthehustle",
+  "version": "1.0.0",
+  "description": "Problem Statement : Graphical Authentication System for Online Banking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayanlobo/ecell_nitb_hack2k23_HackTheHustle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aayanlobo/ecell_nitb_hack2k23_HackTheHustle/issues"
+  },
+  "homepage": "https://github.com/aayanlobo/ecell_nitb_hack2k23_HackTheHustle#readme"
+}
