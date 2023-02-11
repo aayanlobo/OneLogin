@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import {Link} from "react-router-dom";
 
 import img1 from "../assets/Images/img1.png";
 import img3 from "../assets/Images/img3.gif";
@@ -205,8 +205,8 @@ const Register= () => {
 
     
         <Content >      
-          <Btn>Login</Btn>
-          <Btn>Sign Up</Btn>
+          <Link to="/login"><Btn>Login</Btn></Link>
+          <Link to="/sigin"><Btn>Sign Up</Btn></Link>
         </Content>
                       
     
