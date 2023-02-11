@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
 import HomeImage from '../assets/Images/Header12.jpg';
+import Type from '../components/Twr';
 
 // import MainVideo from "../assets/Walking Girl.mp4";
 
@@ -110,38 +111,39 @@ const CoverPic = () => {
       <Title variants={container} initial="hidden" animate="show">
         {/* <div>
           <motion.h1
-            variants={item}
-            data-scroll
-            data-scroll-delay="0.13"
-            data-scroll-speed="4"
+          variants={item}
+          data-scroll
+          data-scroll-delay="0.13"
+          data-scroll-speed="4"
           >
-            W
+          W
           </motion.h1>
           <motion.h1
-            variants={item}
-            data-scroll
-            data-scroll-delay="0.09"
-            data-scroll-speed="4"
+          variants={item}
+          data-scroll
+          data-scroll-delay="0.09"
+          data-scroll-speed="4"
           >
-            i
+          i
           </motion.h1>
           <motion.h1
-            variants={item}
-            data-scroll
-            data-scroll-delay="0.06"
-            data-scroll-speed="4"
+          variants={item}
+          data-scroll
+          data-scroll-delay="0.06"
+          data-scroll-speed="4"
           >
-            b
+          b
           </motion.h1>
           <motion.h1
-            variants={item}
+          variants={item}
             data-scroll
             data-scroll-delay="0.04"
             data-scroll-speed="4"
-          >
+            >
             e
-          </motion.h1>
-        </div> */}
+            </motion.h1>
+          </div> */}
+          <Type/>
         <motion.h2
           style={{ alignSelf: "flex-end" }}
           variants={item}
@@ -153,7 +155,9 @@ const CoverPic = () => {
         </motion.h2>
       </Title>
       
+      
       <img src={HomeImage} alt="BigCo Inc. logo"/>
+      
       
       {/* <video src={MainVideo} type="video/mp4" autoPlay muted loop /> */}
 

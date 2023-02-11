@@ -67,7 +67,7 @@ const Right = styled.div`
   img {
     width: 100%;
     height: auto;
-    margin-top: -5%;
+    margin-top: -12%;
     z-index: 2;
   }
 

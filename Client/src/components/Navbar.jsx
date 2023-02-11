@@ -136,14 +136,14 @@ const Navbar = () => {
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
-          onClick={() => handleScroll('.about')}
+          onClick={() => handleScroll('.Register')}
         >
           <Link to="/">Register/Login</Link>
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
-          onClick={() => handleScroll('#shop')}
+          onClick={() => handleScroll('#OurApproach')}
         >
           <Link to="/">Our Approach</Link>
         </Item>
