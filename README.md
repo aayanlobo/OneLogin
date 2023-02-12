@@ -1,6 +1,6 @@
 # _OneLogin_
 
-![Logo](./assets/bg.png)
+![Logo](./server/assets/logo.png)
 
 **_A domain shifting and ground breaking novel algorithm to redefine the way developers view Auth Systems._**
 
