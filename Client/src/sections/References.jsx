@@ -98,18 +98,19 @@ const Title = styled(motion.h1)`
   left: 1rem;
   z-index: 15;
 
-  @media (max-width: 64em) {
+  @media (max-width: 80em) {
     font-size: ${(props) => props.theme.fontxl};
 
   }
-  @media (max-width: 48em) {
+  @media (max-width: 70em) {
     // font-size: ${(props) => props.theme.fontl};
     font-size: 20px;
-  
+    top: 0.5rem;
   }
   @media (max-width: 48em) {
     // font-size: ${(props) => props.theme.fontl};
     font-size: 20px;
+    top: 0.5rem;
   }
 `;
 const Text = styled.div`
