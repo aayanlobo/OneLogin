@@ -205,8 +205,8 @@ const Register= () => {
 
     
         <Content >      
-          <Link to="/login"><Btn>Login</Btn></Link>
-          <Link to="/sigin"><Btn>Sign Up</Btn></Link>
+          <a href=''><Btn>Login</Btn></a>
+          <a href='https://sign-up-theta.vercel.app/'><Btn>Sign up</Btn></a>
         </Content>
                       
     

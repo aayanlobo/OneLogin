@@ -35,6 +35,7 @@ const Title = styled.h1`
   font-size: ${(props) => props.theme.fontxxxl};
   font-family: "Kaushan Script";
   font-weight: 300;
+  color: white;
   /* text-transform: capitalize; */
   color: ${(props) => props.theme.text};
   text-shadow: 1px 1px 1px ${(props) => props.theme.body};
@@ -108,12 +109,12 @@ const Item = styled(motion.div)`
   display: inline-block;
   width: 50rem;
   height: 100rem;
-  margin-top: 20rem;
+  margin-top: 7rem;
   /* background-color: black; */
-  margin-right: 6rem;
+  margin-right: 3rem;
   img {
-    width: 100%;
-    height: auto;
+    width: 50vw;
+    height: 78vh;
     cursor: pointer;
   }
 
@@ -137,8 +138,8 @@ const Product = ({ img, title = "" }) => {
       transition={{ duration: 0.5 }}
       viewport={{ once: false, amount: "all" }}
     >
-      <div style={{width: "600px", height: "1000px", marginRight: "50px"}}>
-      <img width="400" height="600" src={img} alt={title} />
+      <div style={{width: "50vw", height: "1000px", color:"white", marginRight: "50px"}}>
+      <div style={{width:"400", height: "600",borderTop:"3 px solid  rgba(0, 0, 255, .2)", borderRight:"3 px solid  rgba(0, 0, 255, .2)" , zIndex:"10"}}><img width="400" height="600" src={img} alt={title} /></div>
       <h1>{title}</h1>
       </div>
     </Item>
@@ -201,7 +202,7 @@ const OurApproach= () => {
   return (
     <Section ref={ref} id="OurApproach">
       <Title data-scroll data-scroll-speed="-1">
-       Our Approach
+       Conceptual Overview
       </Title>
       <Left>
         <p>

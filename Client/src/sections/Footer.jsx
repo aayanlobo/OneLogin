@@ -96,6 +96,13 @@ const Bottom = styled.div`
   a {
     text-decoration: underline;
   }
+  h1{
+    background: linear-gradient(to right, #f32170,
+      #ff6b08, #cf23cf, #eedd44);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+font-size: 40px;
+  }
 
   @media (max-width: 64em) {
     flex-direction: column;
@@ -154,7 +161,7 @@ const Footer = () => {
             Register/Login
           </li>
           <li aria-hidden="true" onClick={() => handleScroll("#OurApproach")}>
-            Our Approach
+            Overview
           </li>
           <li aria-hidden="true" onClick={() => handleScroll(".new-arrival")}>
             References

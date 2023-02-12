@@ -131,21 +131,21 @@ const Navbar = () => {
           onClick={() => handleScroll('#home')}
         >
           {' '}
-          <Link to="/App">Home</Link>
+          <Link to="/">Home</Link>
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => handleScroll('.Register')}
         >
-          <Link to="/App">Register/Login</Link>
+          <Link to="/">Register/Login</Link>
         </Item>
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => handleScroll('#OurApproach')}
         >
-          <Link to="/App">Our Approach</Link>
+          <Link to="/">Overview</Link>
         </Item>
 
         <Item
@@ -154,7 +154,7 @@ const Navbar = () => {
           onClick={() => handleScroll('.new-arrival')}
         >
           {' '}
-          <Link to="/App">References</Link>
+          <Link to="/">References</Link>
         </Item>
       </MenuItems>
     </NavContainer>

@@ -24,7 +24,7 @@ export const dark = {
   bodyRgba: '32,32,32',
   textRgba: '255, 255, 255',
 
-  grey: '#bebebe',
+  grey: '#23373c',
 
   fontxs: '0.75em',
   fontsm: '0.875em',
