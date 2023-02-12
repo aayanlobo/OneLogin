@@ -32,6 +32,6 @@
 - [Deployed Project](https://cl-gamma.vercel.app/)
 
 # Showcase
-|     ![How](https://pasteboard.co/l3Lhvs2zB2nz.png)     |       ![WorkFlow](https://pasteboard.co/EEh22RpKOkTP.png)        |
+|     ![How](./server/assets/bg.png)   |
 | :--------------------------------------------------: | :-----------------------------------------------------: |
-| ![HomePage](https://pasteboard.co/SpIi4QEXKsYF.png) | ![Citations](https://pasteboard.co/4JX9tZpaqlqJ.png) |
+| ![HomePage](./server/assets/homepage.png) | ![Citations](./server/assets/logo.png) |
