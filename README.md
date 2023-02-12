@@ -32,6 +32,6 @@
 - [Deployed Project](https://cl-gamma.vercel.app/)
 
 # Showcase
-|     ![How](./server/assets/bg.png)   |
+|     ![How](./server/assets/bg.png)     |       ![WorkFlow](./server/assets/workflow.png)        |
 | :--------------------------------------------------: | :-----------------------------------------------------: |
 | ![HomePage](./server/assets/homepage.png) | ![Citations](./server/assets/citations.png) |
