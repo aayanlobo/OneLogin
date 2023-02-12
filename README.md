@@ -1,19 +1,37 @@
-Problem Statement : Graphical Authentication System for Online Banking 
+# _OneLogin_
 
-Functional Requirements:
-● Customizable graphical patterns: Users should be able to create their own graphical
-patterns by connecting dots or drawing shapes on a grid. The patterns should be
-easy to remember and unique to each user.
-● Real-time validation: The system should validate the user's pattern in real-time,
-providing feedback on the accuracy of the pattern and allowing the user to make
-corrections as needed.
-● Security and privacy: The solution should be secure, with encryption and
-authentication to protect user data and prevent unauthorised access.
-● User-friendly interface: The solution should have a user-friendly interface that is easy
-to use, even for non-technical users, and accessible to users with disabilities.
+![Logo](./assets/bg.png)
 
+**_A domain shifting and ground breaking novel algorithm to redefine the way developers view Auth Systems._**
 
-Solution :
-We've come up with the image based graphical authentication based on advanced kth Algorithm. 
+# What is a Graphical Authentication System Anyway?
+- A Graphical Auth system, is by defination made of graphics instead of tradtitional alphanumerics.
+- The _ad reductio_ idea stems from the fact that alphanumerics are just input symbol.
 
+# What's the Fuzz about?
 
+- While graphical Auth systems have been around for years now (the first occurance of such concept dates back serveral years), they have mostly been unviable due to various practical flaws.
+
+- We beleve, that we have found a novel way to eliminate one of the major attack vectors of this system known as Reload Attack.
+
+- The OneLogin (TM) algorithm eliminates all chances of this attack vector by using a mathemataically superior approach with entropy greater than it will take to reach the singularity.
+
+- The OneLogin (TM) algorithm performs upto 1.5 times better in uniformly distributed value tests and takes upto 12% less space to store as an hash.
+
+- The algorithm has a Sum over Product of Factorial complexity that far exceeds that of any Alphanumeric Language, it uses a novel new data structure that does lazy prop on a link cut tree (inspired from pashka, see code for more info on impl)
+
+# What do we Do?
+- We provide an easy to use solution for Developers with enhanced interoperability.
+- Our SDK has plenty documentation and a small but friendly community behind it.
+- Easy on users, Easay on devs, what else could one need? :)
+
+# Links
+
+- [GitHub Repository](https://github.com/aayanlobo/ecell_nitb_hack2k23_HackTheHustle)
+- [OneLogin (TM) Algo](https://pastebin.com/bn0ZgXan)
+- [Deployed Project](https://cl-gamma.vercel.app/)
+
+# Showcase
+|     ![How](https://pasteboard.co/l3Lhvs2zB2nz.png)     |       ![WorkFlow](https://pasteboard.co/EEh22RpKOkTP.png)        |
+| :--------------------------------------------------: | :-----------------------------------------------------: |
+| ![HomePage](https://pasteboard.co/SpIi4QEXKsYF.png) | ![Citations](https://pasteboard.co/4JX9tZpaqlqJ.png) |
