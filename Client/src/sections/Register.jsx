@@ -154,6 +154,15 @@ position: relative;
 top: 36vh;
 right: -160%;
 
+@media (max-width: 64em) {
+  margin-left: -40vw;
+  object-position: center 20%;
+}
+@media (max-width: 30em) {
+  margin-left: -40vw;
+  object-position: center 50%;
+}
+
 
 `;
 
@@ -205,7 +214,7 @@ const Register= () => {
 
     
         <Content >      
-          <a href=''><Btn>Login</Btn></a>
+          <a href='https://login-orpin-gamma.vercel.app/'><Btn>Login</Btn></a>
           <a href='https://sign-up-theta.vercel.app/'><Btn>Sign up</Btn></a>
         </Content>
                       

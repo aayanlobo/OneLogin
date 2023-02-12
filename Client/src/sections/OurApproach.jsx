@@ -4,8 +4,8 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import React, { useLayoutEffect, useRef } from "react";
 import styled from "styled-components";
 
-import img1 from "../assets/Images/test.png";
-import img2 from "../assets/Images/test.png";
+import img1 from "../assets/Images/sample.png";
+import img2 from "../assets/Images/how_to_reg.png";
 import img3 from "../assets/Images/test.png";
 import img4 from "../assets/Images/test.png";
 import img5 from "../assets/Images/test.png";
@@ -28,7 +28,7 @@ const Section = styled(motion.section)`
 
   position: relative;
 
-  /* background-color: orange; */
+ background-color: #23373c; 
 `;
 
 const Title = styled.h1`
@@ -133,7 +133,7 @@ const Product = ({ img, title = "" }) => {
   return (
     // x: 100, y: -100
     <Item
-      initial={{ filter: "grayscale(100%)" }}
+      initial={{ filter: "grayscale(0%)" }}
       whileInView={{ filter: "grayscale(0%)" }}
       transition={{ duration: 0.5 }}
       viewport={{ once: false, amount: "all" }}
@@ -217,7 +217,7 @@ const OurApproach= () => {
         <Product img={img3} title="Alphanumeric Way" />
         <Product img={img4} title="Drawbacks" />
         <Product img={img1} title="Our Approach" />
-        <Product img={img2} title="Algorithm" />
+        <Product img={img2} title="Sign Up Page" />
         <Product img={img5} title="Advantages" />
         <Product img={img6} title="Sign Up" />
         <Product img={img7} title="Login" /> 

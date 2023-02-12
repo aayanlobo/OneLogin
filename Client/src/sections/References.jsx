@@ -37,26 +37,22 @@ const Overlay = styled.div`
   z-index: 11;
 
   @media (max-width: 70em) {
-  width: 40vw;
-
-    height: 80vh;
+    width: 40vw;
+    height: 90vh;
   }
 
-  @media (max-width: 64em) {
+  @media (max-width: 60em) {
   width: 50vw;
   box-shadow: 0 0 0 60vw ${(props) => props.theme.text};
-
-    height: 80vh;
+  height: 90vh;
   }
   @media (max-width: 48em) {
-  width: 60vw;
-
-    height: 80vh;
+    width: 60vw;
+    height: 90vh;
   }
   @media (max-width: 30em) {
-  width: 80vw;
-
-    height: 60vh;
+    width: 80vw;
+    height: 90vh;
   }
 `;
 
@@ -103,13 +99,17 @@ const Title = styled(motion.h1)`
   z-index: 15;
 
   @media (max-width: 64em) {
-    font-size: ${(props) => props.theme.fontxxl};
-
+    font-size: ${(props) => props.theme.fontxl};
 
   }
   @media (max-width: 48em) {
-    font-size: ${(props) => props.theme.fontxl};
+    // font-size: ${(props) => props.theme.fontl};
+    font-size: 20px;
   
+  }
+  @media (max-width: 48em) {
+    // font-size: ${(props) => props.theme.fontl};
+    font-size: 20px;
   }
 `;
 const Text = styled.div`
@@ -122,9 +122,11 @@ const Text = styled.div`
   right: 0;
   z-index: 11;
 
+  @media (max-width: 64em){
+    font-size: 15px;
+  }
   @media (max-width: 48em) {
     display: none;
-  
   }
  
 `;
