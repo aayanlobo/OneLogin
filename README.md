@@ -34,4 +34,4 @@
 # Showcase
 |     ![How](./server/assets/bg.png)   |
 | :--------------------------------------------------: | :-----------------------------------------------------: |
-| ![HomePage](./server/assets/homepage.png) | ![Citations](./server/assets/logo.png) |
+| ![HomePage](./server/assets/homepage.png) | ![Citations](./server/assets/citations.png) |
