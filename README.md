@@ -29,7 +29,7 @@
 
 - [GitHub Repository](https://github.com/aayanlobo/ecell_nitb_hack2k23_HackTheHustle)
 - [OneLogin (TM) Algo](https://pastebin.com/bn0ZgXan)
-- [Deployed Project](https://cl-gamma.vercel.app/)
+- [Deployed Project](https://onelogin.vercel.app/)
 
 # Showcase
 |     ![How](./server/assets/bg.png)     |       ![WorkFlow](./server/assets/workflow.png)        |
