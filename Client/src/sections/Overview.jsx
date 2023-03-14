@@ -4,16 +4,11 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import React, { useLayoutEffect, useRef } from "react";
 import styled from "styled-components";
 
-import img1 from "../assets/Images/sample.png";
+import img1 from "../assets/Images/Algorithm.png";
 import img2 from "../assets/Images/how_to_reg.png";
-import img3 from "../assets/Images/test.png";
-import img4 from "../assets/Images/test.png";
-import img5 from "../assets/Images/test.png";
-import img6 from "../assets/Images/test.png";
-import img7 from "../assets/Images/test.png";
-// import img8 from "../assets/Images/8.webp";
-// import img9 from "../assets/Images/9.webp";
-// import img10 from "../assets/Images/10.webp";
+import img3 from "../assets/Images/Comparison.png";
+import img4 from "../assets/Images/Logging page.png";
+import img5 from "../assets/Images/workflow.png";
 
 const Section = styled(motion.section)`
   min-height: 100vh;
@@ -40,16 +35,21 @@ const Title = styled.h1`
   color: ${(props) => props.theme.text};
   text-shadow: 1px 1px 1px ${(props) => props.theme.body};
 
-  position: relative;
-  top: -4rem;
+  // position: relative;
+  position: absolute;
+  // top: -4rem;
+  top: -4vh;
   left: 45%;
   z-index: 11;
 
   @media (max-width: 64em) {
     font-size: ${(props) => props.theme.fontxxl};
+    top: -4vh
   }
   @media (max-width: 48em) {
+    left: 35%;
     font-size: ${(props) => props.theme.fontxl};
+    top: -4vh;
   }
 `;
 
@@ -81,16 +81,18 @@ const Left = styled.div`
   }
 
   @media (max-width: 48em) {
-    width: 40%;
-    p {
-      font-size: ${(props) => props.theme.fontsm};
-    }
+    display: none;
+    // width: 40%;
+    // p {
+    //   font-size: ${(props) => props.theme.fontsm};
+    // }
   }
-  @media (max-width: 30em) {
-    p {
-      font-size: ${(props) => props.theme.fontxs};
-    }
-  }
+  // @media (max-width: 30em) {
+  //   p {
+  //     font-size: ${(props) => props.theme.fontxs};
+  //   }
+  // }
+
 `;
 const Right = styled.div`
   /* width: 65%; */
@@ -101,8 +103,15 @@ const Right = styled.div`
   min-height: 100vh;
 
   display: flex;
-  justify-content: flex-start;
+  // justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+
+  @media (max-width: 48em) {
+  left: 0;
+  padding-left: 5%;
+  }
+  
 `;
 
 const Item = styled(motion.div)`
@@ -114,7 +123,7 @@ const Item = styled(motion.div)`
   margin-right: 3rem;
   img {
     width: 50vw;
-    height: 78vh;
+    height: 70vh;
     cursor: pointer;
   }
 
@@ -123,9 +132,23 @@ const Item = styled(motion.div)`
     text-align: center;
     cursor: pointer;
   }
-
-  @media (max-width: 48em) {
-    width: 15rem;
+  @media (max-width: 64em) {
+    // width: 15rem;
+    img {
+      // margin-right: 20px;
+      width: 60vw;
+      height: 48vh;
+      cursor: pointer;
+    }
+  }
+  @media (max-width: 30em) {
+    // width: 15rem;
+    img {
+      // margin-right: 20px;
+      width: 97vw;
+      height: 52vh;
+      cursor: pointer;
+    }
   }
 `;
 //data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"
@@ -138,8 +161,9 @@ const Product = ({ img, title = "" }) => {
       transition={{ duration: 0.5 }}
       viewport={{ once: false, amount: "all" }}
     >
-      <div style={{width: "50vw", height: "1000px", color:"white", marginRight: "50px"}}>
-      <div style={{width:"400", height: "600",borderTop:"3 px solid  rgba(0, 0, 255, .2)", borderRight:"3 px solid  rgba(0, 0, 255, .2)" , zIndex:"10"}}><img width="400" height="600" src={img} alt={title} /></div>
+      <div style={{width: "65vw", height: "80vh", color:"white", display:"flex",flexDirection: "column", alignItems:"center", justifyContent:"center", marginRight: "20px"}}>
+      {/* <div style={{width: "6vw", height:"8vh"}}><img src={img} alt={title} /></div> */}
+      <img src={img} alt={title} />
       <h1>{title}</h1>
       </div>
     </Item>
@@ -214,13 +238,14 @@ const OurApproach= () => {
         </p> 
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="Alphanumeric Way" />
-        <Product img={img4} title="Drawbacks" />
-        <Product img={img1} title="Our Approach" />
         <Product img={img2} title="Sign Up Page" />
-        <Product img={img5} title="Advantages" />
-        <Product img={img6} title="Sign Up" />
-        <Product img={img7} title="Login" /> 
+        <Product img={img4} title="Login Page" />
+        <Product img={img5} title="Workflow" />
+        <Product img={img1} title="Algorithm" />
+        <Product img={img3} title="Comparison" />
+        
+        {/* <Product img={img6} title="Sign Up" />
+        <Product img={img7} title="Login" />  */}
         {/* <Product img={img8} title="" />
         <Product img={img9} title="" />
         <Product img={img10} title="" />  */}

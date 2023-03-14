@@ -21,6 +21,13 @@ const Section = styled.section`
   color: ${(props) => props.theme.text};
 
   position: relative;
+
+  @media (max-width: 70em) {
+    min-height: 200vh;
+  }
+  @media (max-width: 48em) {
+    height: 250vh;
+    
 `;
 
 const LogoContainer = styled.div`
@@ -30,7 +37,7 @@ const LogoContainer = styled.div`
   align-items: center;
 
   img {
-    width: 10vw;
+    width: 15vw;
     height: auto;
   }
 
@@ -40,6 +47,7 @@ const LogoContainer = styled.div`
 
     @media (max-width: 48em) {
       font-size: ${(props) => props.theme.fontxl};
+      margin-top: -13vh;
     }
   }
 `;
@@ -48,7 +56,9 @@ const FooterComponent = styled(motion.footer)`
   width: 80vw;
 
   @media (max-width: 48em) {
-    width: 90vw;
+    width: 70vw;
+    height: 217vh;
+    
   }
   ul {
     list-style: none;

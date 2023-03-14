@@ -22,6 +22,13 @@ const Section = styled.section`
 
   position: relative;
   /* background-color: ${(props) => props.theme.text}; */
+
+  @media (max-width: 70em) {
+      height: 40vh;
+  }
+  @media (max-width: 48em) {
+       height: 40vh;
+  }
 `;
 
 const Overlay = styled.div`
@@ -238,7 +245,7 @@ let t1= gsap.timeline();
         These collections of citations helped in our journey of development throughtout the process.
         <br />
         <br />
-        Made a one step forward for making online banking authentication system to get improved.
+        Made a one step forward for making online banking authentication system more secure.
         <br />
         <br />
         Give it a try and experience a new authentication model.

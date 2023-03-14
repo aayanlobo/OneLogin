@@ -10,14 +10,13 @@ import ScrollTriggerProxy from "./components/ScrollTriggerProxy";
 import Register from "./sections/Register";
 import Footer from "./sections/Footer";
 import Home from "./sections/Home";
-// import Marquee from "./sections/Marquee";
 import References from "./sections/References";
-import OurApproach from "./sections/OurApproach";
+import Overview from "./sections/Overview";
 import GlobalStyles from "./styles/GlobalStyles";
 import { dark } from "./styles/Themes";
 
 function App() {
-  // useLocoScroll();
+  
   const containerRef = useRef(null);
   const [Loaded, setLoaded] = useState(false);
 
@@ -59,7 +58,7 @@ function App() {
 
               <Home key="home" />
               <Register key="Register" />
-               <OurApproach key="OurApproach" />
+               <Overview key="Overview" />
               {/* <Marquee key="marquee" /> */}
               <References key="References" />
               <Footer key="Footer" />

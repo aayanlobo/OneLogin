@@ -24,7 +24,15 @@ const Section = styled.section`
   /* justify-content: center;
   align-items: center; */
 `;
-
+const outdiv = styled.div`
+  height: 10vh;
+  width: 100vw;
+  position: absolute;
+  top: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
 // const Left = styled.div`
 //   width: 50%;
 //   font-size: ${(props) => props.theme.fontlg};
@@ -87,28 +95,31 @@ const Right = styled.div`
   @media (max-width: 64em) {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     img {
       width: 100%;
-      height: 100vh;
+      height: 35vh;
       object-fit: cover;
-      top: 2%;
+      margin-top: -113%;
+      margin-left: 0vh;
     }
 
     .small-img-1 {
-      width: 30%;
-      height: auto;
-      left: 5%;
-      bottom: 10%;
+      // width: 0%;
+      // height: 0%;
+      display:none;
+      // left: 5%;
+      // bottom: 10%;
     }
     .small-img-2 {
-      width: 30%;
-      height: auto;
-
-      position: absolute;
-      left: 60%;
-      bottom: 20%;
+      // width: 0%;
+      // height: 0%;
+      display:none;
+      // position: absolute;
+      // left: 60%;
+      // bottom: 20%;
     }
   }
 `;
@@ -117,10 +128,13 @@ const Title = styled.h1`
   font-size: ${(props) => props.theme.fontBig};
   font-family: "Kaushan Script";
   font-weight: 300;
+  // border: 2px solid red;
   /* text-transform: capitalize; */
 
   position: absolute;
   top: 1rem;
+  left: 50vw;
+  text-align: center;
   left: 70%;
   z-index: 5;
 
@@ -133,7 +147,7 @@ const Title = styled.h1`
     top: 0;
     left: 0%;
   }
-  @media (max-width: 48em) {
+  @media (max-width: 64em) {
     font-size: ${(props) => props.theme.fontxxxl};
   }
 `;
@@ -155,19 +169,29 @@ top: 36vh;
 right: -160%;
 
 @media (max-width: 64em) {
-  margin-left: -40vw;
-  object-position: center 20%;
+  z-index: 50;
+  position: absolute;
+  top:60vh;
+  right:27vw;
 }
 @media (max-width: 30em) {
-  margin-left: -40vw;
-  object-position: center 50%;
+  z-index: 50;
+  position: absolute;
+  top:60vh;
+  right:27vw;
+}
+@media (max-width: 593px){
+  z-index: 50;
+  position: absolute;
+  top:60vh;
+  right:21vw;
 }
 
 
 `;
 
 const Btn = styled.button`
-width: 15vw;
+width: 250px;
 height: 8vh;
 margin-top: 2rem;
 
@@ -194,6 +218,13 @@ font-family: "Sirin Stencil";
   transition: font-size 0.3s;
 }
 `;
+const Divhai = styled.div`
+  position:relative;
+  top: 0vh;
+  // @media (max-width: 64em){
+  //   display: none;
+  // }
+`
 const Register= () => {
   return (
   
@@ -205,6 +236,7 @@ const Register= () => {
         data-scroll-direction="horizontal"
       >
         Register here
+
       </Title>
 
       
@@ -214,13 +246,14 @@ const Register= () => {
 
     
         <Content >      
-          <a href='https://login-orpin-gamma.vercel.app/'><Btn>Login</Btn></a>
+          <a href='https://sign-up-theta.vercel.app/'><Btn>Login</Btn></a>
           <a href='https://sign-up-theta.vercel.app/'><Btn>Sign up</Btn></a>
         </Content>
+        
                       
     
       
-        <img width="400" height="600" src={img1} alt="About Us" />
+        <Divhai><img width="400" height="600" src={img1} alt="About Us" /></Divhai>
         <img
           width="400"
           height="600"
