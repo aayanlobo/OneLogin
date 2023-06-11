@@ -2,7 +2,7 @@
 
 ![Logo](./server/assets/logo.png)
 
-**_A domain shifting and ground breaking novel algorithm to redefine the way developers view Auth Systems._**
+**_A domain shifting & ground breaking novel algorithm to redefine the way developers view Auth Systems._**
 
 # What is a Graphical Authentication System Anyway?
 - A Graphical Auth system, is by defination made of graphics instead of tradtitional alphanumerics.
