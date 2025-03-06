@@ -200,7 +200,7 @@ const Footer = () => {
             data-scroll-speed="-2"
             data-scroll-direction="horizontal"
           >
-            Developed By Team <h1>HackTheHustle</h1>
+            Developed By <h1>aayanlobo<a href="https://github.com/aayanlobo/"> </a> </h1>
             {/* <a
               href="http://youtube.com/codebucks"
               target={"_blank"}
